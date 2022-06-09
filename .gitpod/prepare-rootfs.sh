@@ -3,7 +3,7 @@ export LIBGUESTFS_DEBUG=1
 export LIBGUESTFS_TRACE=1
 set -euo pipefail
 
-img_url="https://cloud-images.ubuntu.com/hirsute/current/hirsute-server-cloudimg-amd64.tar.gz"
+img_url="https://cloud-images.ubuntu.com/releases/hirsute/release/ubuntu-21.04-server-cloudimg-amd64.tar.gz"
 
 script_dirname="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 outdir="${script_dirname}/_output/rootfs"
